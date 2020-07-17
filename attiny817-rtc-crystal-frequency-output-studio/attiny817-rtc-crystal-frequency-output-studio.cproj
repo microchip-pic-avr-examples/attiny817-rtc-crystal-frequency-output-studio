@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>RTCCrystalFrequencyOutput</AssemblyName>
-    <Name>RTCCrystalFrequencyOutput</Name>
-    <RootNamespace>RTCCrystalFrequencyOutput</RootNamespace>
+    <AssemblyName>attiny817-rtc-crystal-frequency-output-studio</AssemblyName>
+    <Name>attiny817-rtc-crystal-frequency-output-studio</Name>
+    <RootNamespace>attiny817-rtc-crystal-frequency-output-studio</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
