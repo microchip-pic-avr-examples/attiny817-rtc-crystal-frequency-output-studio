@@ -1,0 +1,74 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.attiny817-rtc-crystal-frequency-output-studio",
+        "version": "1.0.0",
+        "displayName": "RTC Crystal Frequency Output",
+        "projectName": "attiny817-rtc-crystal-frequency-output-studio",
+        "shortDescription": "This code example will show how to output a crystal clock on a pin by using two functions available in the code. The system clock will not be changed.",
+        "ide": {
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
+        },
+        "compiler": [
+            {
+                "name": "AVR-GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
+        "dfp": {
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.6.316"
+        },
+        "configurator": {
+            "name": "N/A",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATtiny817",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "subcategories": [
+            [
+                "Peripherals",
+                "RTC"
+            ],
+            [
+                "Peripherals",
+                "Oscillator/Clock"
+            ],
+            [
+                "Development Kit",
+                "ATtiny817 Xplained Pro"
+            ]
+        ],
+        "peripherals": [
+            "RTC",
+            "Oscillator/Clock"
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
