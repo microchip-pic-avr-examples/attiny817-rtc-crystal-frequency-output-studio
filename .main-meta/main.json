@@ -44,7 +44,7 @@
             ],
             [
                 "Peripherals",
-                "Oscillator/Clock"
+                "CLKCTRL"
             ],
             [
                 "Development Kit",
@@ -53,11 +53,9 @@
         ],
         "peripherals": [
             "RTC",
-            "Oscillator/Clock"
+            "CLKCTRL"
         ],
         "keywords": [
-            "",
-            ""
         ],
         "additionalData": {
             "longDescription": {
