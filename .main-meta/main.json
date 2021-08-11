@@ -4,17 +4,17 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny817-rtc-crystal-frequency-output-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "RTC Crystal Frequency Output",
         "projectName": "attiny817-rtc-crystal-frequency-output-studio",
         "shortDescription": "This code example will show how to output a crystal clock on a pin by using two functions available in the code. The system clock will not be changed.",
         "ide": {
-            "name": "Studio",
+            "name": "STUDIO",
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
             {
-                "name": "AVR-GCC",
+                "name": "AVR GCC",
                 "semverRange": "^5.4.0"
             }
         ],
@@ -56,6 +56,9 @@
             "CLKCTRL"
         ],
         "keywords": [
+            "Crystal",
+            "PIT",
+            "EVSYS"
         ],
         "additionalData": {
             "longDescription": {
